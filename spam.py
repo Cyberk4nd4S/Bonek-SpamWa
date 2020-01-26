@@ -295,3 +295,4 @@ def jnspam():
 			print(m+'             Don`t leave it blank')
 			continue
 	main()
+jnspam()
