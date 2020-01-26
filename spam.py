@@ -208,7 +208,7 @@ def multi():
 #-------------------------Fungsi Banner-----------------------
 def logo():
 	os.system('clear')
-	auth=m+'Author : '+k+'./Kitsune'
+	auth=m+'Author : '+k+'./kitsune'
 	f='''
 ⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤
 ⣿⠀⠀⣿⢱⣾⠉⣿⢱⢾⠑⣾⠉⣿⢱⣾⢱⡇⣿⣾⢱⠀⠀⣿
@@ -227,7 +227,9 @@ def logo():
 ⠀⢻⣄⢿⣇⣼⣿⣿⣿⢟⠜⣭⠉⣣⡻⣅⠚⢿⣿⣿⡿⣠⡟⠀
 ⠀⠀⠹⣦⠹⢿⣿⠋⠬⢭⠛⣤⠛⣤⡭⠥⠙⣾⡿⠏⣴⠏⠀⠀
 ⠀⠀⠀⠀⠻⣦⣌⠙⠛⠿⢷⣤⣭⡾⠿⠛⠋⣡⣴⠟⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠉⠛⠻⢶⣦⣤⣤⣴⡶⠟⠛⠉⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠉⠛⠻⢶⣦⣤⣤⣴⡶⠟⠛⠉⠀⠀⠀⠀⠀⠀       
+'''
+	return u+f+'\n'+auth
 # -----------------------------------------------------------
 def termux():
 	os.system('termux-contact-list > .contact')
@@ -306,4 +308,3 @@ def jnspam():
 			print(m+'             Don`t leave it blank')
 			continue
 	main()
-jnspam()
