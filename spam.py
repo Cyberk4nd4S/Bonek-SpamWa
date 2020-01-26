@@ -208,7 +208,8 @@ def multi():
 #-------------------------Fungsi Banner-----------------------
 def logo():
 	os.system('clear')
-	auth=m+'Author : '+k+'./Kitsune | krypton-byte | Cyberk4nd4S (Clonner)'
+	auth=m+'Author : '+k+'./Kitsune'
+	auth=m+'Clonner : '+k+' Cyberk4nd4S'
 	f='''
   ██████  ██▓███   ▄▄▄       ███▄ ▄███▓ 
 ▒██    ▒ ▓██░  ██▒▒████▄    ▓██▒▀█▀ ██▒ 
