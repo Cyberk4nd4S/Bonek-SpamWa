@@ -209,7 +209,6 @@ def multi():
 def logo():
 	os.system('clear')
 	auth=m+'Author : '+k+'./Kitsune'
-	auth=m+'Clonner : '+k+' Cyberk4nd4S'
 	f='''
   ██████  ██▓███   ▄▄▄       ███▄ ▄███▓ 
 ▒██    ▒ ▓██░  ██▒▒████▄    ▓██▒▀█▀ ██▒ 
