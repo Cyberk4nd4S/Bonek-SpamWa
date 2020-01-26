@@ -208,7 +208,7 @@ def multi():
 #-------------------------Fungsi Banner-----------------------
 def logo():
 	os.system('clear')
-	auth=m+'By : '+k+'Cyberk4nd4S | Bonek Assololey'
+	auth=m+'Editor : '+k+'Cyberk4nd4S | Bonek Assololey'
 	f='''
 ⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤
 ⣿⠀⠀⣿⢱⣾⠉⣿⢱⢾⠑⣾⠉⣿⢱⣾⢱⡇⣿⣾⢱⠀⠀⣿
