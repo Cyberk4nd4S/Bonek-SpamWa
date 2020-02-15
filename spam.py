@@ -102,7 +102,7 @@ class spam:
 		if 'expireAt' in requests.post("https://api.tokotalk.com/v1/no_auth/verifications",data = data,headers=head).text:
 			return f'\x1b[92mSpamm TokoTalk {self.nomer} {h}Succes!'
 		else:
-			return f'\x1b[92mSpamm BALAJI {self.nomer} {m}Gagal!'
+			return f'\x1b[92mSpamm TokoTalk {self.nomer} {m}Gagal!'
 # ------------------------------------------------------------
 
 # ---------------------------Fungsi----------------------------
